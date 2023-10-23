@@ -2,7 +2,7 @@ import React from 'react'
 
 function Treading() {
   return (
-    <div>Treading</div>
+    <div className='screen-container'> Treading</div>
   )
 }
 

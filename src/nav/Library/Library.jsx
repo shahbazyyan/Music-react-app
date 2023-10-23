@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+
 
 function Library() {
   return (
-    <div>Library</div>
+    <div className='screen-container'>
+library
+
+    </div>
   )
 }
 
