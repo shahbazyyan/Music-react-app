@@ -4,14 +4,12 @@ import "./albumimage.css";
 function AlbumImage({url}) {
     console.log(url);
   return (
-    <>
-      <div className='albumImage'>
-        <img src={url} alt="img" className='albumImage-art'/>
-        </div>
-      {/* <div className="albumImage-shadow">
-         <img src={url} alt="shadow" className='albumIMage-shadow'/>
-     </div> */}
-    </>
+    <div className="albumImage flex">
+    <img src={url} alt="album art" className="albumImage-art" />
+    <div className="albumImage-shadow">
+      <img src={url} alt="shadow" className="albumImage-shadow" />
+    </div>
+  </div>
   )
 }
 
